@@ -19,7 +19,9 @@ O objetivo desse projeto é criar uma automação desktop da Calculadora do Wind
 ```
 |--- apps
 |--- tests
-|--- requirements.txt
+|--- package-lock.json
+|--- package.json
+|--- wdio.conf.js
 ```
 
 ## Executando os testes
