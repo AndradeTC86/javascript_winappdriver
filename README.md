@@ -28,7 +28,7 @@ O objetivo desse projeto é criar uma automação desktop da Calculadora do Wind
 
 1. [Git](https://git-scm.com/) 
 2. [WinAppDriver](https://github.com/microsoft/WinAppDriver) `Latest Version`   
-3. [Python](https://www.python.org/) 
+3. [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) 
 
 ### Setup inicial
 
