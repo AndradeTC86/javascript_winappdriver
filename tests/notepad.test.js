@@ -27,6 +27,11 @@ describe('Notepad Tests', () => {
     it('should create a note', async () => {
         const editor = notepad.textEditor()
         await editor.click()
+
+        // Limpa qualquer conteúdo existente antes de iniciar o teste.
+        await editor.addValue('\uE009a')
+        await editor.addValue('\uE017')
+
         await editor.setValue('Test Automation with WinAppDriver')
         let text = await editor.getText()
         expect(text).toBe('Test Automation with WinAppDriver')
