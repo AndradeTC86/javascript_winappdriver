@@ -28,7 +28,6 @@ describe('Notepad Tests', () => {
         const editor = notepad.textEditor()
         await editor.click()
 
-        // Limpa qualquer conteúdo existente antes de iniciar o teste.
         await editor.addValue('\uE009a')
         await editor.addValue('\uE017')
 
